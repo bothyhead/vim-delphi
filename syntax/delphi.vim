@@ -74,6 +74,7 @@ syn match delphiReal "\v[-+]?\.\d+(e[-+]?\d+)?"
 syn match delphiReal "\v[-+]?\d+e[-+]?\d+"
 
 syn region delphiString start="'" end="'" skip="''" oneline
+syn region delphiString start="'''" end="'''"
 syn match delphiChar "\v\#\d+"
 syn match delphiChar "\v\#\$[0-9a-f]{1,6}"
 
